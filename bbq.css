@@ -1,0 +1,133 @@
+body {
+	background-color: black;
+	color: white;
+	padding-top: 110px;
+	font-family: 'Alegreya', serif;
+	
+}
+
+a {
+	color:#F86B06;
+	text-decoration: none;
+}
+a:hover {
+	color:orange;
+	text-decoration: none;
+}
+.nav-logo {
+	height: 90px;
+	margin-top: -35px;
+}
+
+
+
+.navbar-nav {
+	margin-left: -30px;
+}
+
+.selected {
+	background-color: #F86B06;
+	text-align: left;
+}
+
+.container {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	margin: 0;
+	width: 100%;
+}
+
+.navbar-default {
+	background: black;
+	border: black;
+	width: 100%;
+}
+
+
+.navbar {
+	margin-bottom: 0;
+	width: 100%;
+}
+
+.logo {
+	width: 250px;
+	margin-left: 25%;
+	padding-top: 30px;
+
+}
+
+.main{
+	text-align: center;
+	font-family: 'Cinzel', serif;
+}
+
+.facebook {
+	font-size: 25px;
+	text-align: center;
+
+}
+
+.voted {
+	text-align: center;
+	padding-top: 2em; 
+	padding-bottom: 2em;
+	background-color: #F86B06;
+	border: 5px solid #ff3300;
+	margin:0;
+	width: 100%;
+}
+
+.voted a {
+	color: black;
+}
+.voted h3 {
+	padding-top: 1em;
+}
+
+.address  {
+	text-align: center;
+	padding: 40px;	
+}
+
+.address h5 {
+	font-size: 25px;
+}
+/*media queries*/
+
+@media (min-width: 600px){
+	.logo {
+		width: 400px;
+		margin-left: 50px;
+
+	}
+	.main {
+		padding-top: 4em;
+		
+	}
+
+	.facebook {
+		padding: 1em;
+	}
+
+	.navbar {
+		height: 50px;
+	}
+	.voted {
+		height: 60px;
+		margin-bottom: 2em;
+	}
+	
+	.voted h3 {
+		margin-top: -35px;
+	}
+
+	.push {
+		padding: 20px;
+		text-align: center;
+	}
+
+}
+
+
+
