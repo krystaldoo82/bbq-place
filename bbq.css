@@ -14,6 +14,11 @@ a:hover {
 	color:orange;
 	text-decoration: none;
 }
+
+p {
+	font-size: 20px;
+}
+
 .nav-logo {
 	height: 90px;
 	margin-top: -35px;
@@ -93,16 +98,23 @@ a:hover {
 .address h5 {
 	font-size: 25px;
 }
+
+.navbar-fixed-bottom {
+	margin-bottom: 0;
+	padding: 10px 0;
+}
+
 /*media queries*/
 
-@media (min-width: 600px){
+@media (min-width: 660px){
 	.logo {
 		width: 400px;
+		height: 350px;
 		margin-left: 50px;
 
 	}
 	.main {
-		padding-top: 4em;
+		padding-top: 6em;
 		
 	}
 
@@ -126,8 +138,20 @@ a:hover {
 		padding: 20px;
 		text-align: center;
 	}
+	.header {
+	display: inline-flex;
+	margin-top: 0;
+	padding-top: 0;
+}
+	body {
+		margin-top: 0;
+		padding-top: 20px;
+	}
+
+	p {
+		text-align: center;
+		margin-top: 1em;
+	}
 
 }
-
-
 
